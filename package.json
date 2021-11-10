@@ -7,7 +7,7 @@
     "start":"node server.js",
     "devStart": "nodemon server.js"
   },
-  "author": "",
+  "author": "Proioxis4",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",
