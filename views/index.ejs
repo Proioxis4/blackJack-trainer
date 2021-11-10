@@ -1,0 +1,21 @@
+
+
+<img class="rounded mx-auto d-block" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Blackjack21.jpg">
+
+<form class="container" action="/play" method="POST">
+  <div class="mb-3">
+    <label class="form-label">Amount of money</label>
+    <input type="text" name="money" class="form-control" placeholder="Money" aria-label="Money" aria-describedby="basic-addon1">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Number of decks in a shoe</label>
+    <select name="list" select class="form-select" aria-label="Default select example">
+        <option value="4">Four</option>
+        <option value="6">Six</option>
+        <option value="8">Eight</option>
+      </select>
+  </div>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button type="submit" class="btn btn-dark">Play</button>
+  </div>
+</form>

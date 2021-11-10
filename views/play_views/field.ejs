@@ -1,0 +1,39 @@
+<div class="container">
+  <article id="decks-number" data-deck="<%= decks %>"></article>
+    <div class="computer-card-slot card-slot"></div>
+    <div class="computer-count text-generic"></div>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col">
+        </div>
+        <div class="col">
+            <br><br><br>
+            <div class=" d-grid gap-2 d-md-block text-center">
+            <button id="btnHit" class="btn btn-success">Hit</button>
+            <button id="btnStand" class="btn btn-danger">Stand</button>
+            <button id="btn-double" class="btn btn-primary">Double</button>
+            <button id="btn-split" class="btn btn-warning">Split</button>
+            <!--<button class="btn-play">Play</button>-->
+            <br><br>
+             <b class=green>Right</b> plays:<div class="right green"></div><b class=red>Wrong</b> plays:<div class="wrong red"></div>
+            <div class="text"></div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="computer-deck deck"></div>
+        </div>
+      </div>
+    
+    
+
+    <div class="player-div">
+      <div class="bankroll"><article id="money" data-money="<%= money %>"></article></div>
+        <div class=player-container>
+          <div class="player-board">
+            <div class="player-count text-generic"></div>
+            <div class="player-card-slot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

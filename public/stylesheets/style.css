@@ -1,0 +1,188 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  /*cursor: pointer; modifica sta roba */
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.deck {
+  height: 200px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin-left: 90%;
+  margin-top: 5%;
+  margin-bottom: auto;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  color: white;
+  user-select: none;
+}
+
+.verticale{
+  vertical-align: middle;
+}
+
+.computer-deck {
+  
+  background-color: green;
+}
+
+.player-deck {
+  background-color: blue;
+}
+
+/*
+.text {
+  grid-column: span 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+.card {
+  position: relative;
+  height: 200px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.player-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blankcard {
+  position: relative;
+  background-color: green;
+  height: 200px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.card.red {
+  color: red;
+}
+
+.card.black {
+  color: black;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bankroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text-generic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 2.4rem;
+  padding: 2rem 0;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  background: linear-gradient(
+    90deg,
+    rgb(18, 92, 255) 0%,
+    rgb(0, 102, 255) 100%
+  );
+  border-radius: 4px;
+}
+
+/*those are just the small values and stuits a the top and bottom of the card.*/
+.card::before,
+.card::after {
+  position: absolute;
+  content: attr(data-value);
+  font-size: 1rem;
+}
+
+.card::before {
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.card::after {
+  bottom: 0.5rem;
+  right: 0.5rem;
+  transform: rotate(90de);
+}
+
+.player-div {
+  margin-top: 5%;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+.player-boar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player-card-slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.computer-card-slot {
+  background-color: white;
+  height: 200px;
+  width: 100%;
+  /*border: 1px solid black;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  margin-left: auto;
+}
+
+.red{
+  color:red;
+}
+
+
+.green{
+  color:green;
+}
