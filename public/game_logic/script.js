@@ -1,37 +1,6 @@
 import Shoe from "./deck.js"
 import {basicStrategy} from './basic-strategy.js';
-/*ROBA DA IMPLEMENTARE
-risolvere il problema soft Ace ma credo sarà una cosa finale  --- fatto!
 
-risolvere la carta che deve rimanere coperta per il banco all inizio --- fatto!
-
-aggiungere tutti gli altri bottoni situazionali (double split surrender) e aggiungere la cosa di disabilitare quando si passa
-da un round ad un altro o in certe situazioni
-
-aggiungere una sorta di "vuoi continuare a giocare?" e "vuoi iniziare a giocare"
-
-aggiungere il testo al centro con scritto vinto perso push etc --- fatto!
-
-aggiungere un bankroll --- fatto!
-
-migliorare la grafica quindi background etc magari aggiungendo pure un menu
-
-aggiungere un algoritmo che calcola la play migliore e se il player l ha effettivamente fatta.
-
-creare una classe Bankroll così da rendere tutto più ordinato
-
-cambiare i nomi delle funzioni che non sono indicativi pe un cazzo!!1
-
-
-DA FARE LA PROSSIMA SESSIONE::: ELIMINARE TUTTO QUEL BOILER CODE TIPO FLIPCOMPUTERCARD E CREARE UN UNICA FUNZIONE FLIPCARD E USARLA IN MANIERA
-PORTABLE
-
-DA FARE DOIPO sostituire i .pop() con un indice che multiplicative inverses tipo [array.length - index] per migliorare il cleanBeforeRound()
-
-FIXARE IL FATTO CHE SE CLICCO DUE O PIù VOLTE SPLIT AL TURNO DOPO RIMANGONO DUE BOARD
-
-
-*/
 
 
 const CARD_VALUE_MAP = {
