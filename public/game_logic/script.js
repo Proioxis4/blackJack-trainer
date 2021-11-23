@@ -363,7 +363,7 @@ function setupRound() {
   playerValues.push(playerValue);
 
   //checking if the cards are the same, if it's true set the current count to half 
-  if(prevCard.cardToReturn==nextCard.cardToReturn){/* currentCardCount.innerText=playerValue/2; */ isSplitOn=true;} 
+  if(CARD_VALUE_MAP[prevCard.cardToReturn]==CARD_VALUE_MAP[nextCard.cardToReturn]){/* currentCardCount.innerText=playerValue/2; */ isSplitOn=true;} 
 
   if(playerValue==21){
     console.log("you iwn!!");
