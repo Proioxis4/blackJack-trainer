@@ -168,7 +168,7 @@ function standHandler(event) {
     if(playerBoards.length-splitIndex==1 && !isSplitHandlerClicked){
       isSplitOn=false;startComputerRound();return;
     }
-    playerValues[splitIndex]=playerValue; //setting the ith plaver value.
+    playerValue=playerValues[splitIndex]; //setting the ith plaver value.
 
     splitIndex++;
     console.log("dove dovrebbe sta l erorre: "+ splitIndex);
