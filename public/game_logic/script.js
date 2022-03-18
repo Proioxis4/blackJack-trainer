@@ -146,6 +146,7 @@ function standHandler(event) {
       startComputerRound();
       return;
     }
+
     playerValue = playerValues[splitIndex]; //setting the ith plaver value.
 
     splitIndex++;
